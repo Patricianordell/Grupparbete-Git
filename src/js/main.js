@@ -19,12 +19,12 @@ const location3 = new Location("Vattnajökull", "Iceland", "Adventure");
 
 const locations = [location1, location2, location3];
 
-const locationsContainer = document.createElement("p");
+const locationsContainer = document.createElement("section");
 document.body.appendChild(locationsContainer);
 
 for(let i=0; i < locations.length; i++) {
     
-    const locationContainer = document.createElement("p");
+    const locationContainer = document.createElement("article");
     locationContainer.className = "card";
     
     const locationNameContainer = document.createElement("p");
