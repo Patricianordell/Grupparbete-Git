@@ -1,7 +1,7 @@
 export class Clothes {
-    constructor(typ, color, price, size) {
+    constructor(typ, clothesColor, price, size) {
         this.typ = typ;
-        this.color = color;
+        this.clothesColor = clothesColor;
         this.price = price;
         this.size = size;
     }
